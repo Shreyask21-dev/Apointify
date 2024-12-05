@@ -16,7 +16,7 @@ export default function Document() {
   <link rel="stylesheet" href="/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css" />
   <link rel="stylesheet" href="/assets/vendor/aos/dist/aos.css" />
   <link rel="stylesheet" href="/assets/css/style-main.css" />
-
+  <link rel="stylesheet" href="/assets/css/theme.min.css"/>
      </Head>
       <body>
         <Main />

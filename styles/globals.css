@@ -1,0 +1,140 @@
+
+* {
+    margin: 0%;
+}
+
+/* pc view */
+@media only screen and (min-width:600px) {
+    .hero-section {
+        background-color: #e9e9e9;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultant-name {
+        font-size: 80px;
+        font-family: 'Rufina', serif;
+        color: #121212;
+        /* font-weight: 700; */
+    }
+
+    .consultant-bio {
+        padding-top: 15px;
+        text-align: justify !important;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    /* mine */
+    /* .consultant-image {
+        width: 330px;
+        height: 500px;
+        padding: 4px;
+        border: 1px solid #121212;
+    } */
+
+    /* option1
+    .consultant-image {
+        width: 330px;
+        height: 500px;
+        border-radius: 15px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        border: 2px solid #1d262b; 
+        object-fit: cover; 
+    } */
+
+    /* option2 preferable */
+    .consultant-image {
+        width: 450px; 
+        height: 450px;
+        border-radius: 50%;
+        border: 4px solid #1d262b;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+        object-fit: contain; 
+    }
+
+    /* option3  */
+    /* .consultant-image {
+        width: 330px;
+        height: 500px;
+        border-radius: 15px; 
+        border: 1px solid rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px); 
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+        object-fit: cover; 
+    } */
+
+
+    .icons {
+        margin-right: 25px;
+        font-size: 30px;
+    }
+
+    .myplan {
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5% !important;
+    }
+
+    .cardd {
+        border-color: #1d262b !important;
+        height: 280px !important;
+        width: 400px !important;
+        border-radius: 0%;
+        transition: box-shadow 0.3s ease-in-out;
+        /* Smooth transition for the shadow effect */
+        overflow-y: auto;
+    }
+
+    .cardd:hover {
+        box-shadow: 8px 8px 0px black;
+        /* Shadow only to the right and bottom */
+    }
+
+    .planContentHeader {
+        font-family: 'Rufina', serif;
+        color: #121212;
+        font-size: 80px;
+    }
+
+    .planContentText {
+        width: 95%;
+        text-align: justify;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .plansHeader {
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    .calendar{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .calendarContentHeader {
+        font-family: 'Rufina', serif;
+        color: #121212;
+        font-size: 80px;
+    }
+    .calenderContentText{
+        width: 95%;
+        text-align: justify;
+        /* margin-left: 15px; */
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    
+}
+
+
+.navbar-vertical .card .nav-tabs .nav-link{
+    margin-left: -6.5% !important;
+}
