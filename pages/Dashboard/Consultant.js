@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import React from 'react'
+import Header from '@/layout/Header'
+import Footer from '@/layout/Footer'
 
 export default function consultant() {
   return (
     <>
+    <Header />
     <div className="hero-section">
 
         <div className="container d-flex align-items-center">
@@ -82,7 +85,7 @@ export default function consultant() {
                             is ideal for addressing one or two specific issues, getting quick advice, or working on
                             short-term tasks. Great for those with tight schedules who need actionable insights fast.
                         </p>
-                        <a href="#" className="btn btn-dark position-absolute bottom-0 mb-3  ">Book Appointment</a>
+                        <a href="#" className="btn btn-dark bottom-0 mb-3  ">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +97,7 @@ export default function consultant() {
                             topic while staying concise. Perfect for exploring multiple related questions, brainstorming
                             ideas, or progressing on medium-term goals. This plan strikes a great balance between depth
                             and time efficiency.</p>
-                        <a href="#" className="btn btn-dark position-absolute bottom-0 mb-3 ">Book Appointment</a>
+                        <a href="#" className="btn btn-dark  bottom-0 mb-3 ">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +109,7 @@ export default function consultant() {
                             planning, or tackling complex topics. Ideal for long-term goals, detailed discussions, or
                             collaborative problem-solving. This plan ensures ample time to explore ideas thoroughly and
                             create actionable outcomes.</p>
-                        <a href="#" className="btn btn-dark position-absolute bottom-0 mb-3">Book Appointment</a>
+                        <a href="#" className="btn btn-dark bottom-0 mb-3">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -130,6 +133,8 @@ export default function consultant() {
             </div>
         </div>
     </section>
+
+    <Footer />
     </>
   )
 }

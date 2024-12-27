@@ -7,8 +7,10 @@ export default function Header() {
         <>
             <div className='header'>
 
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg ">
                     <div class="container">
+                        <div>
+
                         <div class="navbar-brand">
                             <a href='/'>
                             <img src='/images/logo/appo.png' alt='Appointify' />
@@ -17,8 +19,11 @@ export default function Header() {
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        </div>
+                        <div>
+
                         <div class="collapse navbar-collapse" id="navbarScroll">
-                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{ '--bs-scroll-height': '500px' }}>
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{ '--bs-scroll-height': '500px', fontFamily:"Inter, San-serif" }}>
                                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
 
                                 <li class="nav-item"><a class="nav-link" href="/about-us/">About us</a></li>
@@ -41,10 +46,10 @@ export default function Header() {
 
                                 <li class="list-inline-item">
 
-                                    <div class="btn-group">
+                                    <div class="btn-group" style={{backgroundColor:"transparent"}}>
                                         <button type="button" class="btn btn-soft-light btn-xs dropdown-toggle" id="footerSelectLanguage" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
                                             <span class="d-flex align-items-center">
-                                                <img class="avatar avatar-xss avatar-circle me-2" src="./assets/vendor/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16" />
+                                                {/* <img class="avatar avatar-xss avatar-circle me-2" src="./assets/vendor/flag-icon-css/flags/1x1/de.svg" alt="Image description" width="16" /> */}
                                                 <span>SignIn / SignUp</span>
                                             </span>
                                         </button>
@@ -67,6 +72,7 @@ export default function Header() {
 
                             {/* <button class="btn btn-outline-success" type="submit">Sign in / Sign out</button> */}
 
+                        </div>
                         </div>
                     </div>
                 </nav>

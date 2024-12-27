@@ -8,7 +8,6 @@ export default function DataTableComponent() {
 
     useEffect(() => {
         
-
         const addCustomClassToPagingButtons = () => {
             const buttons = document.querySelectorAll('.dt-paging-button');
             buttons.forEach((button) => {
