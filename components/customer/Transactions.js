@@ -1,27 +1,24 @@
 import React from 'react'
-import DataTable from '../DataTableComponent'
+import CustomerTransaction from '../CustomerTransaction'
 
-export default function Appointments() {
+export default function Transactions() {
     return (
         <>
- 
             <div className="d-grid gap-3 gap-lg-5">
 
                 <div className="card">
                     <div className="card-header border-bottom">
-                        <h4 className="card-header-title">Appointments</h4>
+                        <h4 className="card-header-title">Transactions</h4>
                     </div>
 
                     <div className="card-body">
-                        <div className='row'>
-                           <DataTable />
-                        </div>
+                        <CustomerTransaction />
                     </div>
 
                 </div>
 
-            </div>
 
+            </div>
         </>
     )
 }

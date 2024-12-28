@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
-import Razorpay from 'razorpay';
-
+ 
 // import full calendar
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid'; // Month view
