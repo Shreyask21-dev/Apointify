@@ -49,7 +49,7 @@ export default function Plans() {
 
                         <div className="row my-3">
                             {plans.map((plan, index) => (
-                                <div className="col-md-4 col-12" key={index}>
+                                <div className="col-md-4 col-12 " key={index}>
                                     <div className="card" style={{ width: '18rem' }}>
                                         <div className="card-body">
                                             <h5 className="card-title">
@@ -92,8 +92,8 @@ export default function Plans() {
                             ))}
                         </div>
 
-                        <div className="row">
-                            <div className="col-md-4 col-12">
+                        <div className="row d-flex justify-content-center">
+                            <div className="col-md-4 col-12 my-2 d-flex justify-content-center">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <div className="card-body">
                                         <h5 className="card-title"> <img src='/assets/img/number-one.png' style={{ width: "15%" }} /> &nbsp;Platinum</h5>
@@ -123,7 +123,7 @@ export default function Plans() {
                                 </div>
                             </div>
 
-                            <div className="col-md-4 col-12">
+                            <div className="col-md-4 col-12 my-2 d-flex justify-content-center">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <div className="card-body">
                                         <h5 className="card-title"> <img src='/assets/img/two.png' style={{ width: "15%" }} /> &nbsp;Gold</h5>
@@ -154,7 +154,7 @@ export default function Plans() {
                                 </div>
                             </div>
 
-                            <div className="col-md-4 col-12">
+                            <div className="col-md-4 col-12 my-2 d-flex justify-content-center">
                                 <div className="card" style={{ width: "18rem" }}>
                                     <div className="card-body">
                                         <h5 className="card-title"> <img src='/assets/img/number-3.png' style={{ width: "15%" }} /> &nbsp;Silver</h5>
@@ -173,8 +173,13 @@ export default function Plans() {
 
 
                                         <button className="btn btn-primary" onClick={() => {
-                                            setCurrentPlan(plan); // Set the selected plan
-                                            setEditPopUp(true);  // Open the edit popup
+                                            setCurrentPlan({
+                                                name: "Platinum",
+                                                description: "This plan offers a premium experience designed to cater to your needs...",
+                                                duration: 30,
+                                                price: 250,
+                                            });
+                                            setEditPopUp(true);
                                         }}>Edit Plan</button>
                                     </div>
                                 </div>

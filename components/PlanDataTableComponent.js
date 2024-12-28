@@ -61,59 +61,59 @@ export default function PlanDataTableComponent() {
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Michael Brown', '9123456789', 'michael@example.com', '120 mins', '₹1000', '2024-12-30',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Laura White', '8001234567', 'laura@example.com', '45 mins', '₹400', '2024-12-31',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Emily Green', '9012345678', 'emily@example.com', '75 mins', '₹600', '2025-01-01',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Sophia Gray', '8712345678', 'sophia@example.com', '60 mins', '₹500', '2025-01-02',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Daniel King', '8912345678', 'daniel@example.com', '90 mins', '₹750', '2025-01-03',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Olivia Clark', '8412345678', 'olivia@example.com', '120 mins', '₹1000', '2025-01-04',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Liam Hall', '8312345678', 'liam@example.com', '45 mins', '₹400', '2025-01-05',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                     ['Emma Scott', '8112345678', 'emma@example.com', '75 mins', '₹600', '2025-01-06',
-                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn">
+                        `<button class="btn btn-outline-primary btn-sm mx-1 edit-btn my-2">
                             <i class="bi bi-pencil-square"></i>
                         </button>
-                        <button class="btn btn-outline-danger btn-sm delete-btn">
+                        <button class="btn btn-outline-danger btn-sm delete-btn my-2">
                             <i class="bi bi-trash"></i>
                         </button>`],
                 ],
