@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Header() {
 
+    const router = useRouter()
 
     return (
         <>
@@ -69,8 +71,7 @@ export default function Header() {
                                 </li>
                             </ul>
 
-
-                            {/* <button class="btn btn-outline-success" type="submit">Sign in / Sign out</button> */}
+                            <button class="btn btn-outline-success" onClick={() => {localStorage.setItem('userData',""); router.push('/signin')}}>Sign out</button>
 
                         </div>
                         </div>
