@@ -22,11 +22,11 @@ export default function CustomerBoard() {
   }, []);
 
 
-  useEffect(() => {
-    if (data === "") {
-      router.push('/signin');
-    }
-  }, [data, router]);
+  // useEffect(() => {
+  //   if (data === "") {
+  //     router.push('/signin');
+  //   }
+  // }, [data, router]);
 
 
 

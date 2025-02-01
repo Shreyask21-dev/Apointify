@@ -24,11 +24,11 @@ export default function Consultantbord() {
   }, []);
 
 
-  useEffect(() => {
-    if (data === "") {
-      Router.push('/signin');
-    }
-  }, [data, Router]);
+  // useEffect(() => {
+  //   if (data === "") {
+  //     Router.push('/signin');
+  //   }
+  // }, [data, Router]);
 
   const [Page, setPage] = useState("profile")
 
